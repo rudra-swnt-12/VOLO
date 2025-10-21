@@ -13,3 +13,7 @@ class TrainingError(Exception):
 # This class defines a custom exception for inference errors.
 class InferenceError(Exception):
     pass
+
+# This class defines a custom exception for data processing errors.
+class ImageSegmentationError(Exception):
+    pass
